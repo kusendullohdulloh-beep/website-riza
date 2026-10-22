@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>table1</title>
+<link rel="icon" type="image/jpeg" href="riza.imgs.jpeg">
+</head>
+<body>
+<style>
+    body {
+          background-image: url('husen.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    font-family: Arial, sans-serif;
+    color:white;
+    padding:30px 15px;
+    display:flex;
+    justify-content:center;
+}
+.card {
+    background:#2c3444;
+    max-width:900px;
+    width:100%;
+    border-radius:16px;
+    padding:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+    border:1px solid rgba(255,255,255,0.08);
+}
+.header-top {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+}
+.header-top h2 { font-size:18px; color:#6a8cff; margin:5px 0 0 0; }
+.btn-kembali-atas {
+    background:#1e2f5a;
+    border:1px solid #3b5da1;
+    color:#6a8cff;
+    padding:8px 14px;
+    border-radius:20px;
+    text-decoration:none;
+    font-size:12px;
+    white-space:nowrap;
+}
+.btn-kembali-atas:hover { background:#3b5da1; color:white; }
+
+table {
+    width:100%;
+    border-collapse:collapse;
+    background:#151d33;
+    border-radius:10px;
+    overflow:hidden;
+    font-size:12px;
+}
+th, td {
+    border:1px solid rgba(255,255,255,0.15);
+    padding:8px 6px;
+    text-align:center;
+}
+th { background:#3b5da1; color:white; }
+tr:hover { background:rgba(59,93,161,0.2); }
+.badge-hari { background:#2a3447; padding:2px 8px; border-radius:10px; border:1px solid #3b5da1; }
+</style>
+<div class="card">
+    <div class="header-top">
+        <div>
+            <h2>Jadwal Kuliah Semester 1</h2>
+        </div>
+        <a href="index.html" class="btn-kembali-atas">← Kembali ke Dashboard</a>
+    </div>
+
+    <table>
+        <tr>
+            <th rowspan="2">Hari</th>
+            <th rowspan="2">Jam</th>
+            <th colspan="2">Mata Kuliah</th>
+            <th rowspan="2">Ruangan</th>
+        </tr>
+        <tr>
+            <th>Kode</th>
+            <th>Nama Mata Kuliah</th>
+        </tr>
+        <tr>
+            <td rowspan="2"><span class="badge-hari">kamis</span></td>
+            <td>16:00 - 18:30</td>
+            <td>SI-1B</td>
+            <td style="text-align:left;">Pemrograman Web 1</td>
+            <td>kelas teknik</td>
+        </tr>
+        <tr>
+            <td>18:00 - 19:40</td>
+            <td>SI-1B</td>
+            <td style="text-align:left;">kalkulus 1</td>
+            <td>kelas teknik</td>
+        </tr>
+        <tr>
+            <td rowspan="3"><span class="badge-hari">jumat</span></td>
+            <td>16:00 - 17:40</td>
+            <td>SI-1B</td>
+            <td style="text-align:left;">Agama islam/agama</td>
+            <td>kelas teknik</td>
+        </tr>
+        <tr>
+            <td>17:40 - 19:20</td>
+            <td>SI-1B</td>
+            <td style="text-align:left;">pancasila</td>
+            <td>kelas teknik</td>
+        </tr>
+        <tr>
+            <td>19:20 - 21:00</td>
+            <td>SI-1B</td>
+            <td style="text-align:left;">Pengantar teknologi informasi</td>
+            <td>kelas teknik</td>
+        </tr>
+        <tr>
+            <td rowspan="4"><span class="badge-hari">sabtu</span></td>
+            <td>08:00 - 09:40</td>
+            <td>SI-1B</td>
+            <td style="text-align:left;">algoritma dan pemograman</td>
+            <td>kelas teknik</td>
+        </tr>
+        <tr>
+            <td>10:00 - 11:40</td>
+            <td>SI-1B</td>
+            <td style="text-align:left;">Dasar komunikasi bisnis</td>
+            <td>kelas teknik</td>
+        </tr>
+        <tr>
+            <td>12:50 - 14:30</td>
+            <td>SI-1B</td>
+            <td style="text-align:left;">manejemen dan organisasi</td>
+            <td>kelas teknik</td>
+        </tr>
+        <tr>
+            <td>14:30 - 17:00</td>
+            <td>SI-1B</td>
+            <td style="text-align:left;">orkom dan arkom</td>
+            <td>kelas teknik</td>
+        </tr>
+        <tr>
+            <td colspan="4" style="text-align:left;">Kegiatan Akademik / Seminar</td>
+            <td>Aula</td>
+        </tr>
+        <tr>
+            <td>Total Mata Kuliah</td>
+            <td colspan="3">7 Mata Kuliah</td>
+            <td>-</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>

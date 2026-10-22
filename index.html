@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>index.html login</title>
+<link rel="icon" type="image/jpeg" href="riza.imgs.jpeg">
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+    body {
+          background-image: url('husen.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+         background-color: #1e2f5a; color: white; }
+
+    .top-header {
+        background: #23305c;
+        padding: 22px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .top-header .nav { font-size: 14px; opacity: 0.6; letter-spacing: 1px; }
+
+    .main-box {
+        background: #151d33;
+        margin: 0 50px;
+        padding: 25px 30px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 15px;
+    }
+    .main-box h2 { font-size: 28px; }
+    .main-box p { opacity: 0.7; font-size: 15px; margin-top: 5px; }
+  
+    .avatar-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    border: 2px solid #3b5da1;
+    box-shadow: 0 0 10px rgba(59,93,161,0.5);
+}
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px 50px;
+    }
+    .kartu {
+        background: #2c3444;
+        border-radius: 10px;
+        padding: 25px 20px 45px 20px;
+        text-align: center;
+        position: relative;
+        text-decoration: none;
+        color: white;
+        transition: 0.2s;
+        border: 1px solid rgba(255,255,255,0.05);
+    }
+    .kartu:hover { transform: translateY(-4px); background: #343f53; }
+    .kartu .icon { font-size: 42px; color: #6a8cff; margin-bottom: 12px; }
+    .kartu h3 { font-size: 20px; margin-bottom: 4px; }
+    .kartu p { font-size: 13px; opacity: 0.7; }
+    .kartu .badge {
+        position: absolute;
+        bottom: 12px; right: 12px;
+        font-size: 11px; font-weight: bold;
+        padding: 4px 12px;
+        border-radius: 15px;
+        background: #3a455a;
+        color: #cbd5e1;
+    }
+    .kartu .badge.biru { background: #3b5da1; color: white; }
+    .footer { text-align: center; padding: 20px; font-size: 12px; opacity: 0.5; }
+</style>
+</head>
+<body>
+
+<div class="top-header">
+</div>
+
+<div class="main-box">
+    <div>
+        <p>Mata Kuliah: Pemrograman Web 1 • Semester 1 • 2026</p>
+    </div>
+    <div style="display:flex; align-items:center; gap:10px;">
+        <img src="riza.imgs.jpeg" class="avatar-img">
+        <div>
+            <div style="font-weight:bold;">Mahasiswa Riza husen abdullah</div>
+            <div style="font-size:12px; opacity:0.7;">NIM: 2611700017</div>
+        </div>
+    </div>
+</div>
+
+<div class="grid">
+    <a href="Profile.html" class="kartu">
+        <div class="icon"><img src="riza.imgs.jpeg" class="avatar-img"></div>
+        <h3>Profile.html</h3>
+        <span class="badge biru">WEB 1</span>
+    </a>
+     <a href="about-me.html" class="kartu">
+        <div class="icon">🖌️</div>
+        <h3>about-me.html</h3>
+        <span class="badge biru">WEB 1</span>
+    </a>
+    <a href="Education.html" class="kartu">
+        <div class="icon">{edc.html}</div>
+        <h3>Education.htmlt</h3>
+        <span class="badge biru">WEB 1</span>
+    </a>
+
+    <a href="Hobies.html" class="kartu">
+        <div class="icon">🖥️📱</div>
+        <h3>Hobies.html</h3>
+        <span class="badge biru">WEB 1</span>
+    </a>
+    <a href="cuorse-schedule.html" class="kartu">
+        <div class="icon">🌳</div>
+        <h3>Course-Schedule.html</h3>
+        <span class="badge biru">WEB 1</span>
+    </a>
+    <a href="Form.html" class="kartu">
+        <div class="icon">🔄</div>
+        <h3>From.html</h3>
+        <span class="badge biru">WEB 1</span>
+    </a>
+
+    <a href="Table1.html" class="kartu">
+        <div class="icon">🗄️</div>
+        <h3>Table1.html</h3>
+       <span class="badge biru">WEB 1</span>
+    </a>
+   <a href="Table2.html" class="kartu">
+        <div class="icon">🗄️</div>
+        <h3>Table2.html</h3>
+       <span class="badge biru">WEB 1</span>
+    </a>
+    <a href="Table3.html" class="kartu">
+        <div class="icon">🗄️</div>
+        <h3>Table3.html</h3>
+        <span class="badge biru">WEB 1</span>
+    </a>
+</div>
+
+<div class="footer">
+    © 2026 Universitas mandiri • 
+</div>
+
+</body>
+</html>

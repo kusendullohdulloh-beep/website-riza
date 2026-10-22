@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>table2</title>
+<link rel="icon" type="image/jpeg" href="riza.imgs.jpeg">
+</head>
+<body>
+<style>
+    body {
+          background-image: url('husen.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    font-family: Arial, sans-serif;
+    color:white;
+    padding:30px 15px;
+    display:flex;
+    justify-content:center;
+}
+.card {
+    background:#2c3444;
+    max-width:1000px;
+    width:100%;
+    border-radius:16px;
+    padding:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+    border:1px solid rgba(255,255,255,0.08);
+}
+.header-top {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+}
+.header-top h2 { font-size:18px; color:#6a8cff; margin:5px 0 0 0; }
+.btn-kembali-atas {
+    background:#1e2f5a;
+    border:1px solid #3b5da1;
+    color:#6a8cff;
+    padding:8px 14px;
+    border-radius:20px;
+    text-decoration:none;
+    font-size:12px;
+}
+.btn-kembali-atas:hover { background:#3b5da1; color:white; }
+
+table {
+    width:100%;
+    border-collapse:collapse;
+    background:#151d33;
+    border-radius:10px;
+    overflow:hidden;
+    font-size:12px;
+}
+th, td {
+    border:1px solid rgba(255,255,255,0.15);
+    padding:8px 6px;
+    text-align:left;
+}
+th { background:#3b5da1; color:white; text-align:center; }
+tr:hover { background:rgba(59,93,161,0.2); }
+</style>
+<div class="card">
+    <div class="header-top">
+        <div>
+            <h2>Jadwal Laboratorium Komputer</h2>
+        </div>
+        <a href="index.html" class="btn-kembali-atas">← Kembali ke Dashboard</a>
+    </div>
+
+    <table>
+        <tr>
+            <th rowspan="2">Hari</th>
+            <th colspan="2">Pagi</th>
+            <th colspan="2">Siang</th>
+            <th rowspan="2">Keterangan</th>
+        </tr>
+        <tr>
+            <th>08:00 - 10:00</th>
+            <th>10:00 - 12:00</th>
+            <th>13:00 - 15:00</th>
+            <th>15:00 - 17:00</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Senin</td>
+            <td>Web 1</td>
+            <td>Web 2</td>
+            <td colspan="2">Praktikum Basis Data</td>
+            <td rowspan="2">Normal</td>
+        </tr>
+        <tr>
+            <td colspan="2">Praktikum Pemrograman</td>
+            <td>Jaringan</td>
+        </tr>
+        <tr>
+            <td>Selasa</td>
+            <td colspan="2">Seminar</td>
+            <td>Mobile</td>
+            <td>mobile</td>
+            <td>seminar pagi</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Rabu</td>
+            <td>Web</td>
+            <td colspan="2" rowspan="2">Maintenance Laboratorium</td>
+            <td rowspan="2">Maintenance</td>
+        </tr>
+        <tr>
+            <td colspan="2">Basis Data</td>
+        </tr>
+        <tr>
+            <td>Kamis</td>
+            <td>Algoritma</td>
+            <td>Algoritma</td>
+            <td colspan="2">Praktikum Jaringan</td>
+            <td>Normal</td>
+        </tr>
+        <tr>
+            <td colspan="5" style="text-align:center; font-weight:bold; color:#6a8cff;">Catatan</td>
+            <td>Jadwal dapat berubah</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>

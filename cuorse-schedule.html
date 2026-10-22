@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Course Schedule</title>
+<link rel="icon" type="image/jpeg" href="riza.imgs.jpeg">
+<link rel="stylesheet" href="schedule.css">
+</head>
+<body>
+    <style>
+        body {
+    background-image: url('husen.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    font-family: Arial, sans-serif;
+    color:white;
+    padding:30px 15px;
+    display:flex;
+    justify-content:center;
+}
+.card {
+    background:#2c3444;
+    max-width:1100px;
+    width:100%;
+    border-radius:16px;
+    padding:30px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+    border:1px solid rgba(255,255,255,0.08);
+}
+.card h2 { text-align:center; color:#6a8cff; margin-bottom:20px; }
+
+table {
+    width:100%;
+    border-collapse:collapse;
+    background:#151d33;
+    border-radius:10px;
+    overflow:hidden;
+    font-size:13px;
+}
+th {
+    background:#3b5da1;
+    color:white;
+    padding:12px 8px;
+    text-align:center;
+    font-size:13px;
+}
+td {
+    padding:10px 8px;
+    border-bottom:1px solid rgba(255,255,255,0.08);
+    text-align:center;
+}
+td:nth-child(3), td:nth-child(5) { text-align:left; }
+tr:hover { background:rgba(59,93,161,0.25); }
+.kegiatan td {
+    background:#1e2f5a;
+    font-weight:bold;
+    color:#6a8cff;
+}
+.btn-kembali {
+    display:inline-block;
+    margin-top:15px;
+    background:transparent;
+    border:1px solid #3b5da1;
+    color:#6a8cff;
+    padding:8px 18px;
+    border-radius:20px;
+    text-decoration:none;
+    font-size:13px;
+}
+.btn-kembali:hover {
+    background:#3b5da1;
+    color:white;
+}
+.badge-hari {
+    background:#2a3447;
+    border:1px solid #3b5da1;
+    padding:2px 8px;
+    border-radius:10px;
+    font-size:11px;
+    text-transform:capitalize;
+}
+    </style>
+
+<div class="card">
+    <h2>Jadwal Kuliah Semester 1</h2>
+
+    <table>
+        <tr>
+            <th>Hari</th>
+            <th>Jam</th>
+            <th>Mata Kuliah</th>
+            <th>Ruangan</th>
+            <th>Dosen</th>
+        </tr>
+        <tr>
+            <td><span class="badge-hari">kamis</span></td>
+            <td>16:00 - 18:30</td>
+            <td>Pemrograman Web 1</td>
+            <td>SI-1B</td>
+            <td>Ardi permana, S.kom</td>
+        </tr>
+        <tr>
+            <td><span class="badge-hari">kamis</span></td>
+            <td>18:00 - 19:40</td>
+            <td>kalkulus 1</td>
+            <td>SI-1B</td>
+            <td>Permono Adi Putro, S.Pd.I</td>
+        </tr>
+        <tr>
+            <td><span class="badge-hari">jumat</span></td>
+            <td>16:00 - 17:40</td>
+            <td>Agama islam/agama</td>
+            <td>SI-1B</td>
+            <td>Akrom Mmuhajir M.Pd,i</td>
+        </tr>
+        <tr>
+            <td><span class="badge-hari">jumat</span></td>
+            <td>17:40 - 19:20</td>
+            <td>pancasila</td>
+            <td>SI-1B</td>
+            <td>Kodar Udyono, S.,I,M.A</td>
+        </tr>
+        <tr>
+            <td><span class="badge-hari">jumat</span></td>
+            <td>19:20 - 21:00</td>
+            <td>Pengantar teknologi informasi</td>
+            <td>SI-1B</td>
+            <td>Haris Nihomul Haq S,kom</td>
+        </tr>
+        <tr>
+            <td><span class="badge-hari">sabtu</span></td>
+            <td>08:00 - 09:40</td>
+            <td>Algoritma dan pemrograman</td>
+            <td>SI-1B</td>
+            <td>Asep Saipudin S,Tr,T,m,kom</td>
+        </tr>
+        <tr>
+            <td><span class="badge-hari">sabtu</span></td>
+            <td>10:00 - 11:40</td>
+            <td>Dasar komunikasi bisnis</td>
+            <td>SI-1B</td>
+            <td>Lia kurniawati, S,kom,M,MPD</td>
+        </tr>
+        <tr>
+            <td><span class="badge-hari">sabtu</span></td>
+            <td>12:50 - 14:30</td>
+            <td>manejemen dan organisasi</td>
+            <td>SI-1B</td>
+            <td>Dian Fitri, S,E,M,M</td>
+        </tr>
+        <tr>
+            <td><span class="badge-hari">sabtu</span></td>
+            <td>14:30 - 17:00</td>
+            <td>orkom dan arkom</td>
+            <td>SI-1B</td>
+            <td>Carkiman,S,kom,M,kom</td>
+        </tr>
+        <tr class="kegiatan">
+            <td colspan="3">Kegiatan Mahasiswa</td>
+            <td colspan="2">Aula</td>
+        </tr>
+    </table>
+
+    <center><a href="index.html" class="btn-kembali">← Kembali ke Dashboard</a></center>
+</div>
+
+</body>
+</html>

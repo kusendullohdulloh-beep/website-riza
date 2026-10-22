@@ -1,0 +1,69 @@
+body {  background-image: url('husen.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    font-family: Arial, sans-serif;
+    color:white;
+    padding:30px 15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+.card {
+    background:#2c3444;
+    max-width:1000px;
+    width:100%;
+    border-radius:16px;
+    padding:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+    border:1px solid rgba(255,255,255,0.08);
+}
+.header-top {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+}
+.header-top h3 { font-size:14px; opacity:0.8; margin:10px 0; text-align:left; }
+.btn-kembali-atas {
+    background:#1e2f5a;
+    border:1px solid #3b5da1;
+    color:#6a8cff;
+    padding:8px 14px;
+    border-radius:20px;
+    text-decoration:none;
+    font-size:12px;
+    white-space:nowrap;
+}
+.btn-kembali-atas:hover { background:#3b5da1; color:white; }
+
+table.main {
+    width:100%;
+    border-collapse:collapse;
+    background:#151d33;
+    border-radius:10px;
+    overflow:hidden;
+    font-size:13px;
+}
+table.main th, table.main td {
+    border:1px solid rgba(255,255,255,0.15);
+    padding:8px;
+    text-align:center;
+}
+table.main th { background:#25407a; color:white; }
+table.main td { background:#e8eef7; color:#1e2f5a; }
+table.main td:first-child { background:#d9e1f0; font-weight:bold; text-align:left; }
+.lulus { color:#1a7a3a; font-weight:bold; }
+.remedial { color:#d93025; font-weight:bold; }
+
+table.mini {
+    width:100%;
+    border-collapse:collapse;
+    font-size:11px;
+}
+table.mini th { background:#25407a; color:white; padding:4px; }
+table.mini td { background:white; color:#1e2f5a; padding:4px; border:1px solid #999; }
+.footer-row td { background:#e8eef7; font-weight:bold; }

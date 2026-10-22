@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Educations</title>
+<link rel="icon" type="image/jpeg" href="riza.imgs.jpeg">
+<link rel="stylesheet" href="education.css">
+</head>
+<style>
+    body {
+     background-image: url('husen.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    font-family: Arial, sans-serif;
+    color:white;
+    padding:30px 20px;
+    display:flex;
+    justify-content:center;
+}
+.card {
+    background:#2c3444;
+    max-width:850px;
+    width:100%;
+    border-radius:16px;
+    padding:30px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+    border:1px solid rgba(255,255,255,0.08);
+}
+.card h2 { text-align:center; margin-bottom:20px; color:#6a8cff; }
+
+table {
+    width:100%;
+    border-collapse:collapse;
+    background:#151d33;
+    border-radius:10px;
+    overflow:hidden;
+}
+th {
+    background:#3b5da1;
+    color:white;
+    padding:14px 12px;
+    text-align:left;
+    font-size:14px;
+}
+td {
+    padding:12px;
+    border-bottom:1px solid rgba(255,255,255,0.08);
+    font-size:14px;
+}
+tr:last-child td { border-bottom:none; }
+tr:hover { background:rgba(59,93,161,0.25); }
+
+.badge-jenjang {
+    background:#2a3447;
+    border:1px solid #3b5da1;
+    padding:3px 10px;
+    border-radius:12px;
+    font-size:12px;
+}
+.btn-kembali {
+    display:inline-block;
+    margin-top:15px;
+    background:transparent;
+    border:1px solid #3b5da1;
+    color:#6a8cff;
+    padding:8px 18px;
+    border-radius:20px;
+    text-decoration:none;
+    font-size:13px;
+}
+.btn-kembali:hover {
+    background:#3b5da1;
+    color:white;
+}
+</style>
+<body>
+
+<div class="card">
+    <h2>Riwayat Pendidikan</h2>
+
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Jenjang</th>
+            <th>Nama Sekolah</th>
+            <th>Tahun</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><span class="badge-jenjang">MI</span></td>
+            <td>MI Darurrohmah</td>
+            <td>2011 - 2017</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td><span class="badge-jenjang">MTS</span></td>
+            <td>MTS Nurunnisa</td>
+            <td>2017 - 2020</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td><span class="badge-jenjang">SMK</span></td>
+            <td>SMK TERPADU DI PONEGORO</td>
+            <td>2020 - 2030</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td><span class="badge-jenjang">S1</span></td>
+            <td>Universitas MANDIRI</td>
+            <td>2026 - Sekarang</td>
+        </tr>
+    </table>
+
+    <center><a href="index.html" class="btn-kembali">← Kembali ke Dashboard</a></center>
+</div>
+
+</body>
+</html>

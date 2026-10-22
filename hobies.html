@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hobbies</title>
+<link rel="icon" type="image/jpeg" href="riza.imgs.jpeg">
+<link rel="stylesheet" href="hobbies.css">
+</head>
+<style>
+    body {
+     background-image: url('husen.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    font-family: Arial, sans-serif;
+    color:white;
+    padding:30px 20px;
+    display:flex;
+    justify-content:center;
+}
+.card {
+    background:#2c3444;
+    max-width:650px;
+    width:100%;
+    border-radius:16px;
+    padding:30px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.4);
+    border:1px solid rgba(255,255,255,0.08);
+}
+.box {
+    background:#151d33;
+    padding:25px;
+    border-radius:12px;
+}
+.box h2 { text-align:center; margin-bottom:15px; color:#6a8cff; }
+.box h3 { text-align:center; margin:20px 0 10px 0; font-size:16px; }
+.box p { opacity:0.8; font-size:14px; margin-bottom:10px; }
+.box ul, .box ol { margin-left:20px; line-height:1.8; }
+.box li { font-size:14px; }
+.box li::marker { color:#6a8cff; }
+.btn-kembali {
+    display:inline-block;
+    margin-top:15px;
+    background:transparent;
+    border:1px solid #3b5da1;
+    color:#6a8cff;
+    padding:8px 18px;
+    border-radius:20px;
+    text-decoration:none;
+    font-size:13px;
+}
+.btn-kembali:hover {
+    background:#3b5da1;
+    color:white;
+}
+.divider {
+    height:1px;
+    background:rgba(255,255,255,0.1);
+    margin:15px 0;
+}
+</style>
+<body>
+
+<div class="card">
+
+    <div class="box">
+        <h2>Hobi</h2>
+        <p>Beberapa hobi saya adalah:</p>
+        <ul>
+            <li>tidur</li>
+            <li>main bola</li>
+            <li>Bermain game</li>
+            <li>dan</li>
+        </ul>
+
+        <div class="divider"></div>
+
+        <h3>Urutan Hobi Favorit</h3>
+        <ol type="A">
+            <li>Programming</li>
+            <li>Gaming</li>
+            <li>Badminton</li>
+            <li>Traveling</li>
+        </ol>
+    </div>
+
+    <center><a href="index.html" class="btn-kembali">← Kembali ke Dashboard</a></center>
+</div>
+
+</body>
+</html>
